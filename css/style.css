@@ -1,0 +1,58 @@
+head,body{height:100%}
+.produit{
+	height:300px;
+	margin:20px 0;
+	border-radius:20px;
+	position: relative;
+	background-size: cover!important;
+    background-position: center!important;
+    box-shadow: 1px 1px 20px 0px #dadada;
+}
+
+#quantite{
+	background:red;
+	color:black;
+}
+
+.input_quantite{
+	width: 40px;
+    text-align: center;
+}
+
+.btn_ajout_panier{
+	font-size:12px;
+}
+
+.d-inline-flex{
+	position: absolute;
+	bottom:10%;
+	left:50%;
+	transform: translate(-50%,0);
+	height:30px;
+}
+
+#produit1{
+	background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB1B3RpNXXXXXXKaFXXq6xXFXXXi%2Fkpop-clothes-harajuku-90s-mens-clothing-Grey-ArmyGreen-Black-mens-streetwear-kanye-ripped-destroyed-plain-oversized.jpg&f=1&nofb=1);
+}
+
+#produit2{
+	background:url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fscene7.zumiez.com%2Fis%2Fimage%2Fzumiez%2Fpdp_hero%2FChampion-Reverse-Weave-Small-Logo-Black-Hoodie-_279782-front-US.jpg&f=1&nofb=1);
+}
+
+#produit3{
+	background:url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.conda-racing.com%2Fwp-content%2Fuploads%2F2018%2F05%2Fdravus-mens-hoodies-sweatshirts-baker-green-henley-hoodie-dark-green.jpg&f=1&nofb=1);
+}
+
+#produit4{
+	background:url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.conda-racing.com%2Fwp-content%2Fuploads%2F2018%2F05%2Fobey-mens-hoodies-sweatshirts-novel-dusty-forest-pullover-hoodie-dark-green.jpg&f=1&nofb=1);
+}
+
+#produit5{
+	background:url(https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fi.ebayimg.com%2Fimages%2Fi%2F230815607044-0-1%2Fs-l1000.jpg&f=1&nofb=1);
+}
+
+#produit6{
+	background:url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fae01.alicdn.com%2Fkf%2FHTB16LWGIpXXXXcmXXXXq6xXFXXXU%2FNew-2016-Mens-Hoodies-and-Sweatshirts-Patchwork-Hoodies-Men-Brand-Fashion-Men-s-Tracksuits-Sweatshirts-Hooded.jpg&f=1&nofb=1);
+}
+
+

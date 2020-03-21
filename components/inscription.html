@@ -1,0 +1,36 @@
+<div class="container">
+	<div class="text-center display-4">Inscription</div>
+</div>
+
+<div class="container mt-3">
+	<form action="inscription.php" method="post">
+		<div class="form-group mb-3">
+			<div class="container font-weight-bold mb-2">Nom Complet :</div>
+			<input type="text" name="nom_complet" class="form-control" placeholder="Entrer votre nom" required="required">
+		</div>
+
+		<div class="form-group mb-3">
+			<div class="container font-weight-bold mb-2">Email :</div>
+			<input type="email" name="email" class="form-control" placeholder="Entrer votre email" required="required">
+		</div>
+
+		<div class="form-group mb-3">
+			<div class="container font-weight-bold mb-2">Mot de Passe :</div>
+			<input type="password" name="password" class="form-control" placeholder="Entrer votre mot de passe" required="required">
+		</div>
+
+		<div class="form-group mb-3">
+			<div class="container font-weight-bold mb-2">Comfirmer mot de passe :</div>
+			<input type="password" name="comfirmation_password" class="form-control" placeholder="Comfirmer votre mot de passe" required="required">
+		</div>
+
+		<div class="form-group mb-3">
+			<div class="container font-weight-bold mb-2">Adresse :</div>
+			<input type="text" name="adresse" class="form-control" placeholder="Entrer votre adresse" required="required">
+		</div>
+
+		<input type="submit" name="submit" class="btn btn-primary submit" value="Inscription">
+	</form>
+
+	<div class="mt-2">Vous êtes déja Inscrit ?<a href="connexion.php">Clique ici</a> pour se connecter</div>
+</div>
